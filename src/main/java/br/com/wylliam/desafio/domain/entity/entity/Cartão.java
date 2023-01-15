@@ -20,11 +20,11 @@ public class Cartão {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    @Column(name = "numeroCartao", nullable = false)
+    private Long numeroCartao;
+
     @Column(name = "senha", nullable = false)
     private String senha;
-
-    @Column(name = "nome", nullable = false)
-    private String nome;
 
     @Column(name = "saldo", nullable = true)
     private Double saldo;
